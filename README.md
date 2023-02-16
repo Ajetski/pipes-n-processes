@@ -9,7 +9,7 @@ is complete, the driver program is executed.
 
 ## Project Structure
 ```
-src - folder for source code
+src            - folder for source code
     cpu.cpp        - driver program. boostraps the application and comunicates with
                      subprocesses via stdio
     mem.cpp        - an in-memory db that stores a single integer
@@ -19,4 +19,8 @@ src - folder for source code
                      process, along with public methods that expose functionality
                      similar to a non-buffered Go channel (such as take/send data
                      over the channel)
+run.sh         - helper script that compiles and runs the project
+README.md      - hey, that's me ;)
+.gitignore     - ignore any pesky files. git doesn't need to know about those.
+.gitattributes - fix language stats so .h files aren't listed as C on GitHub
 ```
