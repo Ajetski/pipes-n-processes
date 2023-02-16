@@ -10,6 +10,7 @@ do
 done
 
 cd out
-echo ""
-echo "running driver:"
-./cpu
+
+DRIVER=cpu
+echo "running $DRIVER:"
+./$DRIVER
