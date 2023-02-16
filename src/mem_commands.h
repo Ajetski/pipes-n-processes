@@ -1,0 +1,3 @@
+#define MEM_READ_COMMAND 0
+#define MEM_WRITE_COMMAND 1
+#define MEM_EXIT_COMMAND 2
