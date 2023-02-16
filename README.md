@@ -1,11 +1,13 @@
 # Pipes n Processes
 
 ## Compile/Run
-I have provided a run.sh script. Use `bash run.sh` to compile all of the `.cpp`
-files within the `src` folder with be built into executable files that are placed
-into an `out` folder. The run.sh script has a DRIVER variable that can be changed
-to pick which exectuable should be used to boostrap the project. After complition
-is complete, the driver program is executed.
+Run `bash run.sh`
+
+### How rush.sh works
+The script compiles all of the `.cpp` files within the `src` folder. The ouptut is
+executable files that are placed into an `out` folder. The run.sh script has a
+DRIVER variable that can be changed to pick which exectuable should be used to
+boostrap the project. After complition is complete, the driver program is executed.
 
 ## Project Structure
 ```
