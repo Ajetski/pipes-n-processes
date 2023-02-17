@@ -1,5 +1,7 @@
 # Pipes n Processes
 
+A toy project for playing with pthreads in C++
+
 ## Compile/Run
 Run `bash run.sh`
 
